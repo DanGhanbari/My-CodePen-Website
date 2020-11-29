@@ -1,0 +1,112 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d835f4ba90.js" crossorigin="anonymous"></script>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Monda&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d835f4ba90.js" crossorigin="anonymous"></script>
+  <title>Fitness Club</title>
+</head>
+
+<div id="page-wrapper" class="container rounded-lg">
+  <header id="header">
+    <!--navbar-->
+    <nav id="nav-bar" class="fixed-top container rounded-sm">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link navButton" href="#main">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navButton" href="#registeration">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navButton" href="#video">Video</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link navButton" href="#offer">Offers</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="logo">
+      <img id="header-img" src="http://www.pngall.com/wp-content/uploads/2/Bodybuilding-PNG-HD-Image.png" alt="logo">
+      <a href="https://codepen.io/DanielGhanbari/pen/eYJxJpX" target="_blank">Fitness club</a>
+    </div>
+  </header>
+  <!--body section-->
+
+  <body id="main" class="container px-0 py-0">
+    <div>
+      <img id="img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTJO7KfHtsxr7zDpoxW1HxGf2RK7yqLQdskxQ&usqp=CAU" class="img-thumbnail" alt="man and woman working out">
+    </div>
+    <!--form-->
+    <div id="registeration">
+      <p> Get in touch for free consultation:</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Your Email Address" required />
+        <input id="submit" type="submit" value="submit">
+      </form>
+    </div>
+    <!--video-->
+    <div id="footage" class="embed-responsive embed-responsive-4by3">
+      <iframe id="video" class="embed-responsive-item" src="https://www.youtube.com/embed/MY4iHZnE8IU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <!--offers section-->
+    <div id="offer" class="alert">
+      <div class="row">
+        <div class="col-sm">
+          <p>STARTER</p>
+          <ul>
+            <li>Workout Program <br>(Monthly)</li>
+            <li>Video Demos of Exercises</li>
+            <li>Nutrition Plan</li>
+            <li>Lifestyle Habit Coaching</li>
+            <li>Healthy Recipes</li>
+            <li>Fitness Tips</li>
+          </ul>
+          <p> was <span>£150</span> now £100</p>
+          <button type="button" class="btn btn-dark button" onclick="alert('Congratulations! Thank you for your purchase!')">BUY</button>
+        </div>
+
+        <div class="col-sm">
+          <p>PREMIUM</p>
+          <ul>
+            <li>Customised Workout Program (Monthly)</li>
+            <li>Video Demos of Exercises</li>
+            <li>Customised Nutrition Plan</li>
+            <li>Lifestyle Habit Coaching</li>
+            <li>Healthy Recipes</li>
+            <li>Fitness Tips</li>
+          </ul>
+          <p> was <span>£300</span> now £200</p>
+          <button type="button" class="btn btn-dark button" onclick="alert('Congratulations! Thank you for your purchase!')">BUY</button>
+        </div>
+
+        <div class="col-sm">
+          <p>ELITE</p>
+          <ul>
+            <li>Customised Workout Program (Bi-Weekly)</li>
+            <li>Video Demos of Exercises</li>
+            <li>Customised Nutrition Plan</li>
+            <li>Lifestyle Habit Coaching</li>
+            <li>Healthy Recipes</li>
+            <li>Fitness Tips</li>
+          </ul>
+          <p> was <span>£600</span> now £400</p>
+          <button type="button" class="btn btn-dark button" onclick="alert('Congratulations! Thank you for your purchase!')">BUY</button>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <footer>
+      <button id="scrollUp" type="button" class="btn badge badge-secondary" onclick="window.scrollTo({top: 0, behavior:'smooth'});">↑</button>
+      <p>© 2020 Daniel Ghanbari</p>
+    </footer>
+    <!--tester-->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</div>
+
+</html>
